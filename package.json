@@ -1,0 +1,23 @@
+{
+  "name": "vue-table",
+  "version": "1.0.0",
+  "description": "a component for vue2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naihe138/vue-table.git"
+  },
+  "keywords": [
+    "vue",
+    "vue-table"
+  ],
+  "author": "naice",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naihe138/vue-table/issues"
+  },
+  "homepage": "https://github.com/naihe138/vue-table#readme"
+}
