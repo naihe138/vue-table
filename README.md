@@ -59,30 +59,30 @@ vue-table组件封装了日常常用的功能，分页、选择、操作以及�
 
 #### 列的配置（columns）
 
-| 名称  | 默认  | 是否必须  | 说明
+| 名称  | 默认  | 是否必须  | 说明|
 | ------------ | ------------ | ------------ |
-| title   |   |  是 | 表头标题
-| key |   | 是  | 数据的 key 值
-| width   |   | 是  | 列的宽度以及最小宽度
-| textLine  |   | 否  | 指定那一列的单元格文子溢出显示省略号
-| textAlign   | left  | 否  | 指定那一列的单元格文字的对齐方式left（左对齐） center（ 居中） right(右对齐)
+| title   |   |  是 | 表头标题|
+| key |   | 是  | 数据的 key 值|
+| width   |   | 是  | 列的宽度以及最小宽度|
+| textLine  |   | 否  | 指定那一列的单元格文子溢出显示省略号|
+| textAlign   | left  | 否  | 指定那一列的单元格文字的对齐方式left（左对齐） center（ 居中） right(右对齐)|
 
 
 ### 表格组件的属性配置说明（table config）
 
-| 名称  |  类型 |  默认 | 是否必须  | 说明
+| 名称  |  类型 |  默认 | 是否必须  | 说明|
 | ------------ | ------------ | ------------ | ------------ |
-| tdata  |  Array |   | 是  | 渲染表格的数据
-| tcolumns  | Array  |   | 是  | 表格列的配置
-| showSelect | Boolean  |  false  | 否  | 是否显示左侧选择框
-| showHandle  | Boolean  |  false |  否 | 是否显示右侧操作内容
-| titleHeight  | Number  | 32  | 否  | 表头高度
-| tdHeight  | Number  | 50  | 否  | 单元格高度
-| titleFixed  | String  | 'auto'  |  否 | 表头是否固定，默认'auto'（不固定），'fixed'(固定),注意：表头固定需指定滚动内容（scrollHight）的高度
-|  scrollHight | Numer  | 400  |  否 | 滚动内容的高度
-|  selectFixed | Boolean  | false  |   否 | 左侧是否固定
-| handleFixed  | Boolean  | false  |   否 | 右侧是否固定
-| page  | Object  |   | 否  | 不配置这个 page 就不显示 底部页码，配置的话{totalPage: 50,maxSize: 5} （totalPage)总页数 ,（maxSize）显示页数
+| tdata  |  Array |   | 是  | 渲染表格的数据|
+| tcolumns  | Array  |   | 是  | 表格列的配置|
+| showSelect | Boolean  |  false  | 否  | 是否显示左侧选择框|
+| showHandle  | Boolean  |  false |  否 | 是否显示右侧操作内容|
+| titleHeight  | Number  | 32  | 否  | 表头高度|
+| tdHeight  | Number  | 50  | 否  | 单元格高度|
+| titleFixed  | String  | 'auto'  |  否 | 表头是否固定，默认'auto'（不固定），'fixed'(固定),注意：表头固定需指定滚动内容（scrollHight）的高度|
+|  scrollHight | Numer  | 400  |  否 | 滚动内容的高度|
+|  selectFixed | Boolean  | false  |   否 | 左侧是否固定|
+| handleFixed  | Boolean  | false  |   否 | 右侧是否固定|
+| page  | Object  |   | 否  | 不配置这个 page 就不显示 底部页码，配置的话{totalPage: 50,maxSize: 5} （totalPage)总页数 ,（maxSize）显示页数|
 
 ### 事件相关
 
