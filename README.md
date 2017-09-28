@@ -3,6 +3,7 @@ a table component for vue2.0
 
 <h2><a href="http://gitblog.naice.me/vue-table/demo/vueTable/index.html#/">demo</a></h2>
 
+<h2><a href="http://gitblog.naice.me/vue-table/demo/vueTable/index.html#/">English</a></h2>
 ### vue-table 组件使用
 
 vue-table组件封装了日常常用的功能，分页、选择、操作以及左右固定滚动等功能，具体效果请看 demo。
@@ -10,9 +11,9 @@ vue-table组件封装了日常常用的功能，分页、选择、操作以及�
 ### 基本使用
 
 ````
-    import ttyTable from '@/components/table/table'
+    import vueTable from 'vue-table'
    
-    <tty-table :tdata="tableData"
+    <vue-table :tdata="tableData"
     		   :tcolumns="tableColumns"
     		   :showHandle="true"
     		   :tdHeight="40"
@@ -22,7 +23,7 @@ vue-table组件封装了日常常用的功能，分页、选择、操作以及�
     		<span @click="edit(scope.item)">删除</span>
     		<span @click="edit(scope.item)">禁用</span>
     	</template>
-    </tty-table>
+    </vue-table>
 	
 	/*
 	const columns1 = [
