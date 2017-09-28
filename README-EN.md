@@ -70,7 +70,7 @@ vue-table: The component encapsulates the daily commonly used functions, paging,
 | textAlign   | left  |  no  | cell text alignment： left（左对齐） center（ 居中） right(右对齐) |
 
 
-### 表格组件的属性配置说明（table config）
+### table config
 
 | name  |  type |  default | require  | describe |
 | ------------ | ------------ | ------------ | ------------ | ------------ |
