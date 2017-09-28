@@ -3,7 +3,7 @@ a table component for vue2.0
 
 <h2><a href="http://gitblog.naice.me/vue-table/demo/vueTable/index.html#/">demo</a></h2>
 
-<h2><a href="http://gitblog.naice.me/vue-table/demo/vueTable/index.html#/">中文</a></h2>
+<h2><a href="https://github.com/naihe138/vue-table">中文</a></h2>
 
 ### vue-table
 
