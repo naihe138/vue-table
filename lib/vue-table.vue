@@ -103,9 +103,13 @@
 									<check-box :isTrue="(checkedItem.indexOf(index) > -1)"></check-box>
 								</label>
 							</td>
+							<!--<td v-for="item in tcolumns"-->
+									<!--:class="'text' + item.textAlign"-->
+									<!--@mouseup="selectText(item.selectText, dataItem[item.key])"-->
+									<!--v-ellipsis="dataItem[item.key] + ',' +item.textLine">{{dataItem[item.key]}}-->
+							<!--</td>-->
 							<td v-for="item in tcolumns"
 									:class="'text' + item.textAlign"
-									@mouseup="selectText(item.selectText, dataItem[item.key])"
 									v-ellipsis="dataItem[item.key] + ',' +item.textLine">{{dataItem[item.key]}}
 							</td>
 							<td :class="isDisAbled(index) ? 'textDisable' : ''"
