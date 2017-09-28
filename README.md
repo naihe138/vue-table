@@ -6,9 +6,12 @@ a table component for vue2.0
 <h2><a href="https://github.com/naihe138/vue-table/blob/master/README-EN.md">English</a></h2>
 
 
-### vue-table 组件使用
+在做业务组件的时候需要自己自己封装一个通用的表格，这个表格需要符合我们一切的好的幻想，左右固定，表头固定，分页，选择，一直表格内容的行数限制等等，下面就为大家介绍一下这一款表格组件功能以及怎么使用。
 
-vue-table组件封装了日常常用的功能，分页、选择、操作以及左右固定滚动等功能，具体效果请看 demo。
+### install
+
+`npm install vue-table2`
+
 
 ### 基本使用
 
