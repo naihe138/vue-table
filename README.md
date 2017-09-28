@@ -110,6 +110,9 @@ a table component for vue2.0
 	
 ````
 
+<hr/>
 ps：如果觉得对你有用的话 请点一个 start，你的支持我才是最大的动力
+
+<h2><a href="https://blog.naice.me/articles/59cca465c8ad0914e9336334">博客原文</a></h2>
 
 
