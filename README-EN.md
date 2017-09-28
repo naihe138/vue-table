@@ -12,7 +12,7 @@ vue-table: The component encapsulates the daily commonly used functions, paging,
 ### The basic use
 
 ````
-    import vueTable from 'vue-table'
+    import vueTable from 'vue-table2'
    
     <vue-table :tdata="tableData"
     		   :tcolumns="tableColumns"

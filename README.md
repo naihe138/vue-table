@@ -13,7 +13,7 @@ vue-table组件封装了日常常用的功能，分页、选择、操作以及�
 ### 基本使用
 
 ````
-    import vueTable from 'vue-table'
+    import vueTable from 'vue-table2'
    
     <vue-table :tdata="tableData"
     		   :tcolumns="tableColumns"
